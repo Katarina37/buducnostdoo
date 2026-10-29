@@ -111,7 +111,7 @@ return (
           <select id="cf-topic" value={topic} onChange={(e) => setTopic(e.target.value)}>
             <option value="">Izaberite kategoriju</option>
             {categories.map((c) => (
-              <option key={c.slug} value={c.name}>{c.name}</option>
+              <option key={c.name} value={c.name}>{c.name}</option>
             ))}
           </select>
         </div>
