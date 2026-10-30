@@ -9,7 +9,7 @@
   --ink: #1e1b1a;
   --muted: #6f625c;
   --line: #e3cfc5;
-  --script: "Lobster Two", cursive;
+  --script: "Lobster", cursive;
   --display: "Playfair Display", Georgia, serif;
   --body: "Nunito Sans", system-ui, sans-serif;
   --shadow: 0 14px 34px rgba(120, 70, 50, 0.14);
@@ -521,4 +521,14 @@ dd { margin: 0; font-weight: 800; white-space: nowrap; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .btn, .cat-img, .card, .fcard, .aud-img, .insta-item img { transition: none; }
   .open-pill.is-open i { animation: none; }
+}
+
+/* Lobster nema italic ni bold, pa ih gasimo da se ne izobliči */
+.brand-name,
+.script,
+.hero h1 em,
+.badge strong,
+.footer .footer-name {
+  font-style: normal;
+  font-weight: 400;
 }
